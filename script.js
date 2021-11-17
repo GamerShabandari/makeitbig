@@ -6,9 +6,6 @@ minKnapp.addEventListener("click", function(){
 
     let dittStoraNamn = litetNamn.value.toUpperCase();
 
-    console.log(dittStoraNamn);
-
-    litetNamn.append("Nu funkar det");
-
+    document.getElementById("litetNamn").value = dittStoraNamn;
 
 });
